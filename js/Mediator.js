@@ -1,3 +1,5 @@
+
+// ------- Colleagues -------
 var Participant = function(name) {
   this.name = name;
   this.chatroom = null;
@@ -11,7 +13,10 @@ Participant.prototype = {
       log.add(from.name + " to " + this.name + ": " + message);
   }
 };
+// ------- Colleagues END -------
 
+
+// ------- Mediator -------
 var Chatroom = function() {
   var participants = {};
 
@@ -35,6 +40,9 @@ var Chatroom = function() {
       }
   };
 };
+// ------- Mediator END -------
+
+
 
 // log helper
 
