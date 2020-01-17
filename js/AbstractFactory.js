@@ -90,10 +90,10 @@ var AbstractVehicleFactory = (function () {
 })();
 
 
-// Usage: 
+// // Usage: 
 
-console.log('Car.prototype   ' + JSON.stringify(Car.prototype, null, 4));
-console.log('Car   ' + JSON.stringify(Car.constructor, null, 4));
+// console.log('Car.prototype   ' + JSON.stringify(Car.prototype, null, 4));
+// console.log('Car   ' + JSON.stringify(Car.constructor, null, 4));
 
 AbstractVehicleFactory.registerVehicle( "car", Car );
 AbstractVehicleFactory.registerVehicle( "truck", Truck );

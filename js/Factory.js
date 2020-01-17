@@ -54,3 +54,10 @@ console.log( car instanceof Truck );
 
 // Outputs: Car object of color "yellow", doors: 6 in a "brand new" state
 console.log( car );
+
+var truck = carFactory.createVehicle( { 
+  vehicleType: "truck", 
+  color: "green", 
+  doors: 6 } );
+
+  console.log( truck );
